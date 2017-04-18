@@ -1,0 +1,14 @@
+{
+   "name": "Clean WWW FTW!",
+   "version": "1.0",
+   "manifest_version": 2,
+   "background": {
+       "scripts": ["background.js"]
+   },
+   "permissions": [
+       "webRequest",
+       "webRequestBlocking",
+       "<all_urls>"
+   ],
+   "homepage_url": "https://github.com/skbly7/cleanwww"
+}
