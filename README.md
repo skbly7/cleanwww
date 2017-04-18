@@ -6,6 +6,8 @@ This plugin do nothing useful except blocking such domains.
 
 Just install it and be safe till Chrome is ready to handle it itself.
 
+![MakeInternetGreatAgain](http://i.imgur.com/lbebiWS.gif)
+
 ## Installation
 
 ### Unpacked Extension
