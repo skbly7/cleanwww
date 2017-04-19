@@ -6,7 +6,14 @@ function isFishy(url) {
 }
 
 chrome.webRequest.onBeforeRequest.addListener(
-  function(details){ return {cancel: isFishy(details.url) }},
+  function(details){
+  	if (isFishy(details.url)){
+	  	return {
+	  		redirectUrl: chrome.extension.getURL("error.html") 
+	  	}
+ 	}
+ 	return {};
+  },
   {
     urls: ["<all_urls>"]
   },
