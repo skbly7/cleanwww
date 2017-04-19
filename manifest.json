@@ -10,5 +10,8 @@
        "webRequestBlocking",
        "<all_urls>"
    ],
+   "web_accessible_resources": [
+       "error.html"
+   ],
    "homepage_url": "https://github.com/skbly7/cleanwww"
 }
